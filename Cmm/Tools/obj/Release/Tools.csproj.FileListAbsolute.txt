@@ -1,0 +1,5 @@
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Tools\bin\Release\Tools.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Tools\bin\Release\Tools.pdb
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Tools\obj\Release\Tools.csproj.CoreCompileInputs.cache
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Tools\obj\Release\Tools.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Tools\obj\Release\Tools.pdb

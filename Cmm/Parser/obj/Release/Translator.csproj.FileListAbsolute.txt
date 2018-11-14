@@ -1,0 +1,9 @@
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\bin\Release\Parser.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\bin\Release\Parser.pdb
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\bin\Release\Tools.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\bin\Release\Tools.pdb
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\obj\Release\Translator.csprojAssemblyReference.cache
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\obj\Release\Translator.csproj.CoreCompileInputs.cache
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\obj\Release\Translator.csproj.CopyComplete
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\obj\Release\Parser.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\Parser\obj\Release\Parser.pdb
