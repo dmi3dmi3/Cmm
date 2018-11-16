@@ -13,7 +13,7 @@ namespace Tools
         public static readonly List<char> CyrillicAlphabet;
         public static readonly List<char> Alphabet;
         public static readonly List<char> Numbers = "0123456789".ToList();
-        public static readonly List<char> SpecialSymbols = new List<char>() {';', '='};
+        public static readonly List<char> SpecialSymbols = new List<char>() {';', '=', '(',')'};
         public static readonly List<char> Symbols;
         public static readonly List<char> ArifmeticalOperators = new List<char>(){'+','-','*','/','^','(',')'};
 

@@ -18,3 +18,8 @@ C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\obj\Debug\CmmCompiler.csp
 C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\obj\Debug\CmmCompiler.csproj.CopyComplete
 C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\obj\Debug\CmmCompiler.exe
 C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\obj\Debug\CmmCompiler.pdb
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\bin\Debug\nunit.framework.dll
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\bin\Debug\nunit.framework.pdb
+C:\Users\Dmi3-1\Desktop\MyProjects\Cmm\Cmm\CmmCompiler\bin\Debug\nunit.framework.xml

@@ -1,11 +1,13 @@
-﻿namespace Parser
+﻿using System.Collections.Generic;
+
+namespace Parser
 {
     public static class Translator
     {
         public static string Translate(string inputStr)
         {
-            var tokens = LexAn.DoLexAn(inputStr);
-            var synTree = SyntaxAnalyzer.DoSynAn(tokens);
+            var tokens = LexicalAnalyzer.DoLexAn(inputStr);
+            var synTree = SyntaxAnalyzer.DoSynAn(new List<string>());
             var simpleIL = ILCodeGenerator.GenerateIL(synTree);
             var resStr = ILTemplate.Replace("<CODE_HERE>", simpleIL);
             return resStr;

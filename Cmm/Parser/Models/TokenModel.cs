@@ -1,19 +1,32 @@
-﻿namespace Parser.Models
+﻿using NUnit.Framework.Constraints;
+
+namespace Parser.Models
 {
     public class TokenModel
     {
-        public string Name { get; set; }
-        public int Id { get; set; }
+        public string Text { get; set; }
+        public int Index { get; set; }
 
-        public TokenModel(string name, int id)
+        public TokenModel(string text, int index)
         {
-            Name = name;
-            Id = id;
+            Text = text;
+            Index = index;
         }
 
-        public TokenModel(string name)
+        public TokenModel(string text)
         {
-            Name = name;
+            Text = text;
+            Index = -1;
+        }
+
+        public static bool operator ==(TokenModel l, TokenModel r)
+        {
+            return l.Index == r.Index && l.Text == r.Text;
+        }
+
+        public static bool operator !=(TokenModel l, TokenModel r)
+        {
+            return !(l == r);
         }
     }
 }

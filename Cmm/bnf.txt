@@ -1,0 +1,7 @@
+Lang = Command ";" ... Command ";"
+Command = Type Var ! Var "=" Func ! Func
+Type = "string"
+Var = Letter </Sym ... Sym/>
+Func = FuncName "(" </Var ","... Var /> ")"
+FuncName = "read" ! "write"
+Letter = "A" ! "B" ! ... ! "z"
