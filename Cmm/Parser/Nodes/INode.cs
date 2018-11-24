@@ -1,6 +1,7 @@
-﻿namespace Parser.Models
+﻿namespace Parser.Nodes
 {
     public interface INode
     {
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Parser.Models;
 using System.Collections.Generic;
+using Parser.Exceptions;
 using Tools;
 
 namespace Parser

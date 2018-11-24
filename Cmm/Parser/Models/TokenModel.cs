@@ -19,14 +19,11 @@ namespace Parser.Models
             Index = -1;
         }
 
-        public static bool operator ==(TokenModel l, TokenModel r)
+        public override bool Equals(object obj)
         {
-            return l.Index == r.Index && l.Text == r.Text;
-        }
-
-        public static bool operator !=(TokenModel l, TokenModel r)
-        {
-            return !(l == r);
+            if (obj == null) return false;
+            if (!(obj is PartModel pm)) return false;
+            return pm.Index == Index && pm.Text == Text;
         }
     }
 }

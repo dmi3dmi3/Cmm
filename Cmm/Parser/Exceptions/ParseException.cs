@@ -1,9 +1,8 @@
-﻿using System;
-using Parser.Models;
+﻿using Parser.Models;
 
-namespace Parser
+namespace Parser.Exceptions
 {
-    public class ParseException : Exception
+    public class ParseException : CmmException
     {
         public TokenModel Token { get; set; }
         public bool IsExcepAfter { get; set; }

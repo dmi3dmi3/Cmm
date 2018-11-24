@@ -26,5 +26,18 @@ namespace Parser.Enums
 
             return res;
         }
+
+        public static bool IsType(string input)
+        {
+            try
+            {
+                ToTypes(input);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

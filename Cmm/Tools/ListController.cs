@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Tools
 {
-    public class ListController<T>
+    public class ListController<T> :ICloneable
     {
         private readonly List<T> _currentList;
         private int _iterator;
@@ -64,6 +65,11 @@ namespace Tools
         public bool Contains(T toSearch)
         {
             return _currentList.Contains(toSearch);
+        }
+
+        public object Clone()
+        {
+            return new ListController<T>(_currentList) { _iterator = _iterator};
         }
     }
 }
